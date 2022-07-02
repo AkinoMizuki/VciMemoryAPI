@@ -2,7 +2,8 @@
 VCIアイテムvci.stateを使った拡張保存メモリのAPIです
 
 # API一覧
-|key|機能|
+|API|機能|
+|---|-----|
 |MemoryAPI.ini|初期化します|
 |MemoryAPI.Slave.GetID()|相手先のIDを照会します|
 |MemoryAPI.Slave.Read(VciID ,name)|保存先にあるデータから復帰します|
