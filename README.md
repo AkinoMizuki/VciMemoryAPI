@@ -1,0 +1,2 @@
+# VciMemoryAPI
+VCIアイテムvci.stateを使った拡張保存メモリのAPIです
