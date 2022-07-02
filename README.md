@@ -2,7 +2,8 @@
 VCIアイテムvci.stateを使った拡張保存メモリのAPIです
 
 # 使い方
-先頭の方でLuaモジュールで「MemoryAPI」を呼んだ後に「MemoryAPI.ini」で初期化してからお使いください
+「VCI Object」の「Scripts」の数字を増やして本「MemoryAPI.lua」を追加し出力してください。
+また先頭の方でLuaモジュールで「MemoryAPI」を呼んだ後に「MemoryAPI.ini」で初期化してからお使いください
 
 ```lua
 local MemoryAPI = require("MemoryAPI")
