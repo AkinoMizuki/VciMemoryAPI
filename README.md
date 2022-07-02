@@ -1,6 +1,13 @@
 # VciMemoryAPI
 VCIアイテムvci.stateを使った拡張保存メモリのAPIです
 
+# 使い方
+先頭の方でLuaモジュールで「MemoryAPI」を呼んだ後に「MemoryAPI.ini」で初期化してからお使いください
+
+```lua
+local MemoryAPI = require("MemoryAPI")
+```
+
 # API一覧
 |API|機能|
 |---|-----|
@@ -8,7 +15,6 @@ VCIアイテムvci.stateを使った拡張保存メモリのAPIです
 |MemoryAPI.Slave.GetID()|相手先のIDを照会します|
 |MemoryAPI.Slave.Read(VciID ,name)|保存先にあるデータから復帰します|
 |MemoryAPI.Slave.Write(VciID, name, data)|保存先にデータを保存します|
-
 
 # MemoryAPI.ini
 下記のコードで本APIを初期化できます。
